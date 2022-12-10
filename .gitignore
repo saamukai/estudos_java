@@ -97,6 +97,11 @@ replay_pid*
 **/nbproject/private/
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
+*.xml
+*manifest.mf
+nbproject/
+build.xml
+manifest.mf
 build/
 nbbuild/
 dist/
