@@ -38,5 +38,15 @@ public class ConjuntoComportado {
         for(int n: nums) {
             System.out.println(n);
         }
+        
+        Set<Integer> teste = new HashSet<>();
+        teste.add(1);
+        teste.add(2);
+        teste.add(120);
+        teste.add(6);
+        
+        for(int n: teste) {
+            System.out.println(n);
+        }
     }
 }
