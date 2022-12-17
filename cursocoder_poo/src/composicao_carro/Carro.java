@@ -2,11 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package carro;
+package composicao_carro;
 
 public class Carro {
-    Motor motor = new Motor();
+    Motor motor = new Motor(); //relação unidirecional, carro tem motor, toda via esse motor pode estar em outro carro, um pra um
     
+    // Motor motor;
+    // relação bidirecional, obriga o carro ter um motor e um motor ter um carro.
     // Carro () {
     //     this.motor = new Motor(this);
     // }

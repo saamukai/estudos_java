@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package carro;
+package composicao_carro;
 
 /**
  *
@@ -15,7 +15,7 @@ public class Motor {
     boolean ligado = false;
     double fatorInjecao = 1;
     
-    // vai precisar passar um carro pro motor, um motor pode ter um carro 
+    // relação um pra um,  um motor pertece a um carro e um carro pertence a um motor 
     // Motor(Carro carro) { // exemplo de relacionamento biderecional;;
     //     this.carro = carro;
     // }
